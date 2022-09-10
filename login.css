@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&family=Zilla+Slab:wght@600&display=swap');
+
+body {
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(./img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    color: #f2f2f2;
+}
+
+.log-in h1 {
+    font-family: 'Zilla Slab', serif;
+}
+
+.log-in {
+    width: 300px;
+    margin: 60px auto;
+    padding: 20px;
+    color: #f2f2f2;
+    background: transparent;
+    text-align: center; 
+    font-family: 'Zilla Slab', serif;
+}
+
+.log-in h3 {
+    font-family: 'Zilla Slab', serif;
+    margin: 1px auto;
+}
+
+.input-box {
+    background-color: transparent;
+    background: none;
+    width: 250px;
+    margin: 15px 15px;
+    border: 2px solid #009688;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+button {
+    width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #009688;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+span {
+    background: #009688;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span
+{
+	width: 100%;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
